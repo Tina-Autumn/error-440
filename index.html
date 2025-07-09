@@ -29,11 +29,37 @@
     .glow {
       text-shadow: 0 0 10px #ff5555, 0 0 20px #ff5555, 0 0 30px #ff5555;
     }
+    .hint {
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 2rem;
+    }
+    .command {
+      font-size: 1rem;
+      color: #aaa;
+      margin-top: 1rem;
+    }
+    a.button {
+      margin-top: 2rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #222;
+      border: 1px solid #555;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #444;
+    }
   </style>
 </head>
 <body>
   <h1 class="glow">ERROR 440</h1>
   <p>Fundamental tone mismatch</p>
   <p>Please check your source frequency</p>
+  <p class="hint">Hint: A is not just a letter. It’s a frequency.</p>
+  <p class="command">Раз — Два — Три — Иди.</p>
+  <a href="step2.html" class="button">Next Step</a>
 </body>
 </html>
